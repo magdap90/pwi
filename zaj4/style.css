@@ -1,21 +1,54 @@
 header{
     background-color: aqua;
-    }
-    footer{
+    font-size: 80px;
+    text-align: center;
+    color: pink;
+    text-shadow: 40%;
+}
+footer{
     background-color: blueviolet;
-    }
-    #menu{
+}
+#menu{
     background-color: brown;
-    }
-    .artykul{
+}
+.artykul{
     background-color: blue;
     flex: 2;
-    }
-    .side{
+}
+.side{
     background-color: aquamarine;
     flex: 1;
-    }
+}
+
 main{
     display: flex;
+}
+
+p,body{ /* nie bedzie marginesow (białych lini) ramki to body*/
+    margin:0; /*zewwnetrzne*/
+    padding:0; /*wewnetrzne*/ 
+
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    width: 30%;
+    line-break: normal; 
+}
+a{
+    color: green;
+    display: inline-block;
+    width: 30%;
+    text-decoration: none;
+    
+}
+a:hover{ /*wykonaj sie kiedy najedziesz myszka*/
+  background-color: pink; 
+ 
 
 }
