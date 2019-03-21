@@ -1,0 +1,16 @@
+header{
+background-color: aqua;
+}
+footer{
+background-color: blueviolet;
+flex: 1 50%;
+}
+#menu{
+background-color: brown;
+}
+.artykul{
+background-color: blue;
+}
+.side{
+background-color: aquamarine;
+}
