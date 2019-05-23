@@ -1,0 +1,22 @@
+header{
+    background-color: green;
+}
+footer{
+    background-color: red;
+}
+#nav1{
+    background-color: brown;
+}
+.article1{
+    background-color: blue;
+	display: flex;
+	flex: 3;
+}
+.aside1{
+    background-color: yellow;
+    display: flex;
+	flex: 1;
+}
+.flex-container{
+	display: flex;
+}
